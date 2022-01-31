@@ -1,1 +1,4 @@
-I'm just making sure I could push stuff to this new GitHUb
+I'm just making sure I could push stuff to this new GitHub
+Adding the second line of code
+Adding the third line of code
+
