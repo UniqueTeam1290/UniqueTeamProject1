@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f3473e1-beff-4174-bf3e-eff3e133bb28" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/utils/DriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/utils/DriverUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/driver/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/driver/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/driver/geckodriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UN1HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UN1HomePage.feature" afterDir="false" />
-    </list>
+    <list default="true" id="3f3473e1-beff-4174-bf3e-eff3e133bb28" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,11 +142,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BasePage" />
       <item itemvalue="Cucumber Java.Feature: UN1HomePage" />
       <item itemvalue="Cucumber Java.Scenario: Verify Home title" />
       <item itemvalue="Cucumber Java.Scenario: Verify user is able to see Welcome message" />
       <item itemvalue="JUnit.TestRunner (1)" />
-      <item itemvalue="Application.BasePage" />
     </list>
     <recent_temporary>
       <list>

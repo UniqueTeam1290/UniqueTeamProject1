@@ -14,7 +14,7 @@ public class DriverUtils {
 
         String os = System.getProperty("os.name").toLowerCase();
 
-        if (os.equals("mac os x")){
+        if (os.contains("mac")){
             System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver");
         }else {
             System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver.exe");
