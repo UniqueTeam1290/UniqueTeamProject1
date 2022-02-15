@@ -13,4 +13,5 @@ public class BasePage {
         this.driver = DriverUtils.getDriver();
         PageFactory.initElements(driver, this);
     }
+
 }

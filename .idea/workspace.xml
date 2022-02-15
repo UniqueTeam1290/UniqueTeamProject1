@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3f3473e1-beff-4174-bf3e-eff3e133bb28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/utils/DriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/utils/DriverUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/driver/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/driver/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/driver/geckodriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UN1HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UN1HomePage.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/driver" />
       <recent name="C:\Users\alexc\Desktop\UniqueTeamProject1\src\test\resources\driver" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/test" />
@@ -53,7 +59,20 @@
       <recent name="com.automation.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Verify user is able to see Welcome message">
+  <component name="RunManager" selected="Cucumber Java.Feature: UN1HomePage">
+    <configuration name="BasePage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.automation.pages.BasePage" />
+      <module name="UniqueTeamProject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: UN1HomePage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UN1HomePage.feature" />
@@ -82,26 +101,6 @@
       <option name="NAME_FILTER" value="^Verify Home title$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Home title$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Verify Home title" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Verify Transactions/Transfers title and categories" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UN1HomePage.feature" />
-      <option name="GLUE" value="com.automation.steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="UniqueTeamProject1" />
-      <option name="NAME_FILTER" value="^Verify Transactions\/Transfers title and categories$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Transactions\/Transfers title and categories$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify Transactions/Transfers title and categories" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -152,17 +151,17 @@
     <list>
       <item itemvalue="Cucumber Java.Feature: UN1HomePage" />
       <item itemvalue="Cucumber Java.Scenario: Verify Home title" />
-      <item itemvalue="Cucumber Java.Scenario: Verify Transactions/Transfers title and categories" />
       <item itemvalue="Cucumber Java.Scenario: Verify user is able to see Welcome message" />
       <item itemvalue="JUnit.TestRunner (1)" />
+      <item itemvalue="Application.BasePage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Verify user is able to see Welcome message" />
-        <item itemvalue="JUnit.TestRunner (1)" />
         <item itemvalue="Cucumber Java.Feature: UN1HomePage" />
+        <item itemvalue="Cucumber Java.Scenario: Verify user is able to see Welcome message" />
+        <item itemvalue="Application.BasePage" />
+        <item itemvalue="JUnit.TestRunner (1)" />
         <item itemvalue="Cucumber Java.Scenario: Verify Home title" />
-        <item itemvalue="Cucumber Java.Scenario: Verify Transactions/Transfers title and categories" />
       </list>
     </recent_temporary>
   </component>

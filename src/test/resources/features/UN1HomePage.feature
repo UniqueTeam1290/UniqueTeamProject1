@@ -11,7 +11,7 @@ Feature: This feature is to test functionality related to Home Page
     When user logs in
     Then verify user is navigated to Home Page
 
- @Smoke
+
   Scenario: Verify user is able to see Welcome message
     Then verify welcome message displayed on right top header
 
