@@ -1,2 +1,4 @@
-#target
-#src.test.recources.config
+target
+src/test/resources/config
+
+

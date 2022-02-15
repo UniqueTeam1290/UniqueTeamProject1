@@ -5,30 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f3473e1-beff-4174-bf3e-eff3e133bb28" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/stepdef/Hooks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/stepdef/StepDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Notes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UN1HomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UN1HomePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UN2CheckingAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UN2CheckingAccount.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UN3ManageCheckingAccounts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UN3ManageCheckingAccounts.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UN4SavingAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UN4SavingAccount.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UN5ManageSavingAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UN5ManageSavingAccount.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automation/runner/TestRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automation/stepdef/Hooks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automation/stepdef/StepDefinition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/CheckingBank.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/HomePage.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/step/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/steps/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/step/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/step/LogInSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/steps/LogInSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/utils/DriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/utils/DriverUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +39,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/driver" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alexc\Desktop\UniqueTeamProject1\src\test\resources\driver" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexc\Desktop\UniqueTeamProject1\src\test\resources\driver" />
       <recent name="$PROJECT_DIR$/src/test/resources/config" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/test/resources/features" />
@@ -74,34 +61,15 @@
       <recent name="com.automation.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Verify user is able to see Welcome message">
+  <component name="RunManager" selected="JUnit.TestRunner (1)">
     <configuration name="Feature: UN1HomePage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UN1HomePage.feature" />
+      <option name="GLUE" value="com.automation.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="DigitalBankProject" />
+      <module name="UniqueTeamProject1" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: UN1HomePage" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Verify Checking category" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UN1HomePage.feature" />
-      <option name="GLUE" value="com.automation.step" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="DigitalBankProject" />
-      <option name="NAME_FILTER" value="^Verify Checking category$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Checking category$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify Checking category" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -116,9 +84,9 @@
     <configuration name="Scenario: Verify Home title" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UN1HomePage.feature" />
-      <option name="GLUE" value="com.automation.step" />
+      <option name="GLUE" value="com.automation.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="DigitalBankProject" />
+      <module name="UniqueTeamProject1" />
       <option name="NAME_FILTER" value="^Verify Home title$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Home title$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Verify Home title" />
@@ -133,12 +101,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify user is able to see Welcome message" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify Transactions/Transfers title and categories" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UN1HomePage.feature" />
+      <option name="GLUE" value="com.automation.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="UniqueTeamProject1" />
+      <option name="NAME_FILTER" value="^Verify Transactions\/Transfers title and categories$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Transactions\/Transfers title and categories$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Transactions/Transfers title and categories" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify user is able to see Welcome message (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UN1HomePage.feature" />
       <option name="GLUE" value="com.automation.step" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="DigitalBankProject" />
+      <module name="UniqueTeamProject1" />
       <option name="NAME_FILTER" value="^Verify user is able to see Welcome message$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify user is able to see Welcome message$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Verify user is able to see Welcome message" />
@@ -153,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DigitalBankProject" />
+    <configuration name="TestRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UniqueTeamProject1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.automation.runner.*" />
@@ -170,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Verify user is able to see Welcome message" />
-        <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: Verify Checking category" />
-        <item itemvalue="Cucumber Java.Scenario: Verify Home title" />
+        <item itemvalue="JUnit.TestRunner (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Verify user is able to see Welcome message (1)" />
         <item itemvalue="Cucumber Java.Feature: UN1HomePage" />
+        <item itemvalue="Cucumber Java.Scenario: Verify Home title" />
+        <item itemvalue="Cucumber Java.Scenario: Verify Transactions/Transfers title and categories" />
       </list>
     </recent_temporary>
   </component>
