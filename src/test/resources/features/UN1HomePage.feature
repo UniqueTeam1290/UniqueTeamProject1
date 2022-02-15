@@ -1,61 +1,35 @@
-Feature: This feature is to test if user is able to view all details of his account home page.
+Feature: This feature is to test functionality related to Home Page
 
-  Developer - Alexandr
-  Tester - Tetiana
-  Reviewed By - Daniel
+  Developer
+  Tester
+
+  Reviewed by
 
   Background:
-    Given user opens "http://3.129.60.236:8080/bank/login"
-    And user is on login page
-    When user enters username "username" and password "password"
-    And click on login button
-    Then verify user is navigated to the homepage
+    Given user open website
+    Then verify user is on the Login page
+    When user logs in
+    Then verify user is navigated to Home Page
 
-
-  Scenario Outline: Verify user is able to view Welcome message
-    When user checks right top header
-    Then user should be able to see "<welcomeMessage>"
-
-    Examples:
-
-      | welcomeMessage |
-      | Welcome Amy    |
+ @Smoke
+  Scenario: Verify user is able to see Welcome message
+    Then verify welcome message displayed on right top header
 
   Scenario: Verify Home title
-    When user is checking panel on the left
-    Then user should be able to see "Home" title
+    Then user should see home title displayed
 
-  Scenario: Verify Banking Accounts title
-    When user is checking panel on the left
-    Then user should be able to see "BANKING ACCOUNTS" title is present
+  Scenario: Verify Checking category
+    Then user should see Checking category on Home page
 
-
-  Scenario: Verify Checking category under Banking Accounts
-    When user is checking panel on the left
-    Then user should be able to see "Checking" category under Banking Accounts
-
-  Scenario: Verify Savings category under Banking Accounts
-    When user is checking panel on the left
-    Then user should be able to see "Savings" category under Banking Accounts
+  Scenario: Verify Savings category
+    Then user should see Savings category on Home page
 
   Scenario: Verify External category under Banking Accounts
-    When user is checking panel on the left
-    Then user should be able to see "External" category under Banking Accounts
-
+    Then user should see External category on Home page
 
   Scenario: Verify Transactions/Transfers title and categories
-    When user is checking panel on the left below Banking Accounts
-    Then verify "TRANSACTIONS/ TRANSFERS" title is present
-    And user should be able to see "Deposit" category
-    And user should be able to see "Withdraw" category
-    And user should be able to see "Transfer Between Accounts" category
-    And user should be able to see "VISA Direct Transfer" category
-
-
-
-
-
-
-
-
-
+    Then user should see TRANSACTIONS title on Home page
+    And user should see Deposit category
+    And user should see Withdraw category
+    And user should see Transfer Between Accounts category
+    And user should  see VISA Direct Transfer category
