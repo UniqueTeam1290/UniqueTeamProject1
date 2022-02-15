@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f3473e1-beff-4174-bf3e-eff3e133bb28" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/step/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/steps/HomePageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/step/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/step/LogInSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/steps/LogInSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/utils/DriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/utils/DriverUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +53,7 @@
       <recent name="com.automation.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner (1)">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify user is able to see Welcome message">
     <configuration name="Feature: UN1HomePage" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UN1HomePage.feature" />
@@ -121,14 +113,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify user is able to see Welcome message (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify user is able to see Welcome message" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/UN1HomePage.feature" />
-      <option name="GLUE" value="com.automation.step" />
+      <option name="GLUE" value="com.automation.steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="UniqueTeamProject1" />
       <option name="NAME_FILTER" value="^Verify user is able to see Welcome message$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify user is able to see Welcome message$&quot;" />
+      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Scenario: Verify user is able to see Welcome message" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -156,10 +149,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: UN1HomePage" />
+      <item itemvalue="Cucumber Java.Scenario: Verify Home title" />
+      <item itemvalue="Cucumber Java.Scenario: Verify Transactions/Transfers title and categories" />
+      <item itemvalue="Cucumber Java.Scenario: Verify user is able to see Welcome message" />
+      <item itemvalue="JUnit.TestRunner (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify user is able to see Welcome message" />
         <item itemvalue="JUnit.TestRunner (1)" />
-        <item itemvalue="Cucumber Java.Scenario: Verify user is able to see Welcome message (1)" />
         <item itemvalue="Cucumber Java.Feature: UN1HomePage" />
         <item itemvalue="Cucumber Java.Scenario: Verify Home title" />
         <item itemvalue="Cucumber Java.Scenario: Verify Transactions/Transfers title and categories" />
