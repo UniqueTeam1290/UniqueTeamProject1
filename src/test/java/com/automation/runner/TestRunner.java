@@ -10,6 +10,8 @@ import org.junit.runner.RunWith;
             glue = "com.automation.steps",
             tags = "@Smoke",
             plugin = {"json:target/cucumber.json", "html:target/index.html"}
+
+
     )
     public class TestRunner {
 

@@ -5,44 +5,63 @@ Feature: This feature is to test new Checking Account functionalities
   Reviewed by -> Mr. X
 
   Background:
-    Given user opens "http://3.129.60.236:8080/bank/login"
-    And user is on login page
-    When user enters username "bee@gmail.com" and password "AsdZxc123"
-    And click on login button
-    Then verify user is navigated to the homepage
+    Given user open website
+    Then verify user is on the Login page
+    When user logs in
+    Then verify user is navigated to Home Page
 
-  Scenario: Verify available options under Checking section
-    When user clicks on "Checking" dropdown
-    Then verify "View Checking" and "New Checking" listed
+  Scenario Outline: Verify available options under Checking section
+    When user clicks on "checking" dropdown
+    Then verify "<checkingCategories>" are visible
+    Examples:
+      |checkingCategories |
+      | view-checking     |
+      | new-checking      |
 
   Scenario: Verify user is redirected to new page after clicking on New Checking
-    When user clicks on "Checking" dropdown
-    And  select "New Checking"
-    Then user should be redirected to "http://3.129.60.236:8080/bank/account/checking-add"
+    When user clicks on "checking" dropdown
+    And  select "new-checking"
+    Then user should be redirected to Create Checking page
 
-  Scenario: New Checking Account header verification
-    When user is on the New Checking page
-    Then header should be "New Checking Account"
 
-  Scenario: Checking Account Type categories verification
-    When user is on New Checking page
-    Then user should be able to see "Select Checking Account Type"
-    And unchecked by default categories "Standard Checking" and "Interest Checking"
+  Scenario Outline: Checking Account Type categories verification
+    Given user clicks on "checking" dropdown
+    When  select "new-checking"
+    Then user is on New Checking page
+    And  user should be able to see Select Checking Account Type
+    Then Verify "<CheckingAccountType>" is visible
 
-  Scenario: Select Account Ownership categories verification
+    Examples:
+      | CheckingAccountType   |
+      | Standard Checking     |
+      | Interest Checking     |
+
+
+  Scenario Outline: Select Account Ownership categories verification
     When user is on New Checking page
     Then user should be able to see "Select Account Ownership"
-    And unchecked by default categories "Individual" and "Joint"
+    And  verify "<SelectAccountOwnership>" is "<visible>"
+
+    Examples:
+      | SelectAccountOwnership  | visible |
+      | Individual              | visible |
+      | Joint                   | visible |
+
 
   Scenario: Account Name element verification
     When user is New Checking page
     Then user should be able to see line "Account Name"
     And user should be able to input any alphanumeric and special characters
 
-  Scenario: Initial Deposit Amount element verification
+  Scenario Outline: Initial Deposit Amount element verification
     When user is New Checking page
     Then user should be able to see line "Initial Deposit Amount"
-    And user should be able to input amount to be deposited
+    And user should be able to input "<amount>" to be deposited
+
+    Examples:
+      | amount  |
+      | 25      |
+      | 100     |
 
   Scenario: Create new account verification
     When user clicks on "Submit" button
@@ -90,4 +109,3 @@ Feature: This feature is to test new Checking Account functionalities
       | 24.00  | "The initial deposit ($0.00) entered does not meet the minimum amount ($25.00) required. Please enter a valid deposit amount. |
       | 15     | "The initial deposit ($0.00) entered does not meet the minimum amount ($25.00) required. Please enter a valid deposit amount. |
       | 0      | "The initial deposit ($0.00) entered does not meet the minimum amount ($25.00) required. Please enter a valid deposit amount. |
-
