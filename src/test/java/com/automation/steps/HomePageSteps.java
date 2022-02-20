@@ -3,6 +3,7 @@ package com.automation.steps;
 import com.automation.pages.HomePage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
 
 public class HomePageSteps {
@@ -64,4 +65,23 @@ public class HomePageSteps {
     public void userShouldSeeVISADirectTransferCategory() {
         Assert.assertTrue("Please check whether VISA Direct Transfer is displayed", homePage.visaDirectTransferCategory.isDisplayed());
     }
+
+    @When("user clicks on {string} dropdown")
+    public void userClicksOnDropdown(String arg0) {
+        homePage.verifyUserClickOnDropDownButton(arg0);
+    }
+
+    @Then("verify {string} are visible")
+    public void verifyAre(String arg0) {
+        homePage.viewCheckingIsVisible(arg0);
+
+    }
+
+    @And("select {string}")
+    public void select(String arg0) {
+        homePage.userSelectNewChecking(arg0);
+    }
+
+
+
 }

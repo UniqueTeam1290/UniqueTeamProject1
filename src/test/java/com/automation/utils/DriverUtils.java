@@ -26,7 +26,7 @@ public class DriverUtils {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     //    driver.get(PropertyReader.getProperty("app.url"));
-        driver.manage().window().maximize();
+       // driver.manage().window().maximize();
     }
 
     public static WebDriver getDriver(){

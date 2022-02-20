@@ -1,6 +1,7 @@
 package com.automation.pages;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -45,6 +46,13 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//i[@class = 'fa fa-power -off']/..")
     public  WebElement logOutBtn;
 
+
+
+    String XPATH_CHECKING_DROPDOWN = "//a[@id='%s-menu']";
+    String XPATH_VIEW_CHECKING = "//a[@id='%s-menu-item']";
+
+
+
     public void verifyHomePage() {
         Assert.assertTrue("Please check whether you are on the home page.", dashboardTitle.isDisplayed());
     }
@@ -60,6 +68,26 @@ public class HomePage extends BasePage {
     public void doLogOut(){
         userIcon.click();
         logOutBtn.click();
+    }
+
+
+    public void verifyUserClickOnDropDownButton(String arg0) {
+        String dropDown = String.format(XPATH_CHECKING_DROPDOWN, arg0);
+        WebElement clickOnDropDown = driver.findElement(By.xpath(dropDown));
+        clickOnDropDown.click();
+    }
+
+    public void viewCheckingIsVisible(String arg0) {
+        String view = String.format(XPATH_VIEW_CHECKING,arg0);
+        WebElement viewChecking = driver.findElement(By.xpath(view));
+        viewChecking.click();
+    }
+
+
+    public void userSelectNewChecking(String arg0) {
+        String view = String.format(XPATH_VIEW_CHECKING,arg0);
+        WebElement newChecking = driver.findElement(By.xpath(view));
+        newChecking.click();
     }
 }
 
